@@ -1,0 +1,84 @@
+*{
+    font-family: poppins;
+    margin: 0px;
+    padding: 0px;
+  }
+  body{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    min-height: 100vh;
+    background: #192a56;
+  }
+  .wrapper{
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.2);
+    padding: 2rem;
+    width: 400px;
+    background: #fff;
+  }
+  .m-2{
+    margin: 1.4rem 0rem;
+  }
+  .input-field{
+    display:flex;
+    align-items: stretch;
+    user-select:none;
+  }
+  label{
+    font-size: .9rem;
+  }
+  .input-field input{
+    padding: .5rem;
+    font-size: 1.1rem;
+    border-radius: 4px 0px 0px 4px;
+    border:1px solid #ccc;
+    outline:none;
+    width: 100%;
+  }
+  .btns{
+    display:flex;
+    align-items:center;
+  }
+  .btns button{
+    padding: .5rem;
+    border: 1px solid #192a56;
+    font-size: 1.1rem;
+    background: #192a56;
+    cursor:pointer;
+    transition: all 0.3s ease;
+    color: #fff;
+    border-right: 1px solid #fff;
+  }
+  .btns button:active{
+    background: #ccc
+  }
+  
+  .display-hishab{
+    margin-top: 2rem;
+    text-align:right;
+  }
+  .display-hishab p span{
+    font-weight:bold;
+  }
+  .submit-btn{
+    position:relative;
+    margin-top: 1.5rem;
+  }
+  .submit-btn button{
+    width: 100%;
+    padding: .5rem;
+    background: #192a56;
+    color:#fff;
+    border: 1px solid #192a56;
+    font-size: 1.1rem;
+    border-radius: 4px;
+    box-shadow: 0px 0px 23px rgba(0,0,0,0.1);
+    cursor:pointer;
+  }
+  
+  .disabled{
+    opacity: 0.8;
+    pointer-events:none;
+    user-select:none;
+  }
+  

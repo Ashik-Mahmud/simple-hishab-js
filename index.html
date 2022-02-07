@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hishab - for JavaScript. </title>
+    <!-- link for style.css  -->
+    <link rel="stylesheet" href="./public/css/style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="form-wrapper">
+            <h2>Simple Hishab</h2>
+            <div class="m-2">
+                <label for="first-box" data-total-150="">Fee-($150)</label>
+                <div class="input-field">
+                    <input type="number" id="first-box" data-fee="150" readonly value="0" placeholder="0" class="fees-box">
+                    <div class="btns">
+                        <button class='increase-btn'>+</button>
+                        <button class='decrease-btn'>-</button>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <label for="second-field" data-total-100="">Fee - ($100)</label>
+                <div class="input-field">
+                    <input type="number" data-fee="100" value="0" readonly id="second-field" placeholder="0" class="fees-box">
+                    <div class="btns">
+                        <button class='increase-btn'>+</button>
+                        <button class='decrease-btn'>-</button>
+                    </div>
+                </div>
+            </div>
+            <div class="display-hishab">
+                <p class="subtotal">Subtotal - $<span>000</span></p>
+                <p class="charge">Charge (5%) - $<span>00</span></p>
+                <hr>
+                <p class="intotal">In total - $<span>000</span></p>
+            </div>
+            <div class="submit-btn">
+                <button>Send Hishab</button>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- scripting linking  -->
+    <script src="./public/js/app.js"></script>
+</body>
+
+</html>
